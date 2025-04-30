@@ -1,0 +1,39 @@
+.header {
+  background-color: #626f47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5ecd5;
+  height: 140px;
+}
+.headerMainDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 500px;
+  margin-right: 400px;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.pages {
+  display: flex;
+  gap: 100px;
+}
+.name {
+  transition: transform 0.2s ease;
+}
+.name:hover {
+  transform: scale(1.1);
+}
+.favourites {
+  transition: transform 0.2s ease;
+}
+.favourites:hover {
+  transform: scale(1.1);
+}
+.aboutUs {
+  transition: transform 0.2s ease;
+}
+.aboutUs:hover {
+  transform: scale(1.1);
+}

@@ -5,11 +5,7 @@ import Header from "../../components/Header/Header";
 const HomePage = () => {
   //   const [quiz, setQuiz] = useState([]);
 
-  return (
-    <div className=''>
-      <Header />
-    </div>
-  );
+  return <div className=''></div>;
 };
 
 export default HomePage;

@@ -9,7 +9,7 @@ const Header = () => {
     <div className='header'>
       <div className='headerMainDiv'>
         <div className='name'>
-          <h1>Quiz</h1>
+          <h1 onClick={() => navigate("/")}>Quiz</h1>
         </div>
 
         <div className='pages'>
