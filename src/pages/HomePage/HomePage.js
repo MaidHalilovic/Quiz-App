@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./homePage.css";
+import Header from "../../components/Header/Header";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  //   const [quiz, setQuiz] = useState([]);
+
+  return (
+    <div className=''>
+      <Header />
+    </div>
+  );
 };
 
 export default HomePage;
