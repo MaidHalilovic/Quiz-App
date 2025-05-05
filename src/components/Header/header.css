@@ -5,13 +5,15 @@
   align-items: center;
   color: #f5ecd5;
   height: 140px;
+  max-width: 100%;
 }
 .headerMainDiv {
   display: flex;
   flex-direction: row;
-  gap: 500px;
-  margin-right: 400px;
+  gap: 450px;
+  /* margin-right: 300px; */
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -20,6 +22,8 @@
   gap: 100px;
 }
 .name {
+  flex-shrink: 1;
+  max-width: 100%;
   transition: transform 0.2s ease;
 }
 .name:hover {
