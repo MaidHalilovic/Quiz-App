@@ -17,7 +17,6 @@ const Category = () => {
     <div className='mainContainer'>
       <h1 style={{ marginTop: 80, marginLeft: 50 }}>Category</h1>
       <div className='category'>
-        <h2>General Knowledge</h2>
         <h2>Entertainment: Books</h2>
         <h2>Entertainment: Film</h2>
         <h2>Entertainment: Musical & Theatres</h2>
