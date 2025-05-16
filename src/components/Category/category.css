@@ -1,3 +1,14 @@
 body {
   background-color: #f5ecd5;
 }
+.card img {
+  width: 170px;
+  height: 130px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
