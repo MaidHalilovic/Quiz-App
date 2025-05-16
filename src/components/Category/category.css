@@ -2,13 +2,23 @@ body {
   background-color: #f5ecd5;
 }
 .card img {
-  width: 170px;
-  height: 130px;
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
 }
 .card {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+}
+
+.category {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 2fr);
   gap: 20px;
+  padding: 20px;
+}
+.card h2 {
+  width: 100%;
+  text-align: center;
 }

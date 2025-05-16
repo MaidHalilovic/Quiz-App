@@ -37,8 +37,8 @@ const Category = () => {
 
   return (
     <div className='mainContainer'>
-      <h1 style={{ marginTop: 80, marginLeft: 50 }}>Category</h1>
-      <div className='category' style={{ fontSize: 10 }}>
+      <h1 style={{ marginTop: 80, marginLeft: 45 }}>Categories</h1>
+      <div className='category' style={{ fontSize: 14 }}>
         <div className='card'>
           <img src={img1} alt='img' />
           <h2>Entertainment: Books</h2>
