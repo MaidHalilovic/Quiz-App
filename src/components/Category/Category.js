@@ -23,8 +23,10 @@ import img19 from "../../images/comics.jpg";
 import img20 from "../../images/gadgets.jpg";
 import img21 from "../../images/manga.jpg";
 import img22 from "../../images/cartoon.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Category = () => {
+  const navigate = useNavigate();
   // const [quiz, setQuiz] = useState([])
 
   // const fetchQuestion = async() => {
@@ -55,7 +57,7 @@ const Category = () => {
           <img src={img4} alt='img' />
           <h2>Entertainment: Television</h2>
         </div>
-        <div className='card'>
+        <div className='card' onClick={() => navigate("/VideoGamesQuiz")}>
           <img src={img5} alt='img' />
           <h2>Entertainment: Video Games</h2>
         </div>
