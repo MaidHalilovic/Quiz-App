@@ -45,42 +45,42 @@ const Category = () => {
           <img src={img1} alt='img' />
           <h2>Entertainment: Books</h2>
         </div>
-        <div className='card'>
+        {/* <div className='card'>
           <img src={img2} alt='img' />
           <h2>Entertainment: Film</h2>
-        </div>
-        <div className='card'>
-          <img src={img3} alt='img' />
-          <h2>Entertainment: Musical & Theatres</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
+            <img src={img3} alt='img' />
+            <h2>Entertainment: Musical & Theatres</h2>
+          </div> */}
+        {/* <div className='card'>
           <img src={img4} alt='img' />
           <h2>Entertainment: Television</h2>
-        </div>
+        </div> */}
         <div className='card' onClick={() => navigate("/VideoGamesQuiz")}>
           <img src={img5} alt='img' />
           <h2>Entertainment: Video Games</h2>
         </div>
-        <div className='card'>
+        {/* <div className='card'>
           <img src={img6} alt='img' />
           <h2>Entertainment: Board Games</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
           <img src={img7} alt='img' />
           <h2>Science & Nature</h2>
-        </div>
+        </div> */}
         <div className='card'>
           <img src={img8} alt='img' />
           <h2>Science: Computers</h2>
         </div>
-        <div className='card'>
+        {/* <div className='card'>
           <img src={img9} alt='img' />
           <h2>Science: Mathematics</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
           <img src={img10} alt='img' />
           <h2>Mithology</h2>
-        </div>
+        </div> */}
         <div className='card'>
           <img src={img11} alt='img' />
           <h2>Sports</h2>
@@ -93,34 +93,34 @@ const Category = () => {
           <img src={img13} alt='img' />
           <h2>History</h2>
         </div>
-        <div className='card'>
+        {/* <div className='card'>
           <img src={img14} alt='img' />
           <h2>Politics</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
           <img src={img15} alt='img' />
           <h2>Art</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
           <img src={img16} alt='img' />
           <h2>Celebrities</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
           <img src={img17} alt='img' />
           <h2>Animals</h2>
-        </div>
+        </div> */}
         <div className='card'>
           <img src={img18} alt='img' />
           <h2>Vehicles</h2>
         </div>
-        <div className='card'>
+        {/* <div className='card'>
           <img src={img19} alt='img' />
           <h2>Entertainment: Comics</h2>
-        </div>
-        <div className='card'>
+        </div> */}
+        {/* <div className='card'>
           <img src={img20} alt='img' />
           <h2>Science: Gadgets</h2>
-        </div>
+        </div> */}
         <div className='card'>
           <img src={img21} alt='img' />
           <h2>Entertainment: Japanesse Anime & Manga</h2>

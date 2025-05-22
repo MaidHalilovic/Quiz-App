@@ -11,13 +11,7 @@ const SelectInput = () => {
     setDifficulty(event.target.value);
   };
   return (
-    <div
-    //   style={{
-    //     display: "flex",
-    //     justifyContent: "center",
-    //     flexDirection: "column",
-    //   }}
-    >
+    <div>
       <h2>First choose difficulty</h2>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <FormControl sx={{ m: 1, minWidth: 120 }}>
