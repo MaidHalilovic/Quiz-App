@@ -41,10 +41,10 @@ const Category = () => {
     <div className='mainContainer'>
       <h1 style={{ marginTop: 80, marginLeft: 45 }}>Categories</h1>
       <div className='category' style={{ fontSize: 14 }}>
-        <div className='card'>
+        {/* <div className='card'>
           <img src={img1} alt='img' />
           <h2>Entertainment: Books</h2>
-        </div>
+        </div> */}
         {/* <div className='card'>
           <img src={img2} alt='img' />
           <h2>Entertainment: Film</h2>
@@ -105,10 +105,7 @@ const Category = () => {
           <img src={img16} alt='img' />
           <h2>Celebrities</h2>
         </div> */}
-        {/* <div className='card'>
-          <img src={img17} alt='img' />
-          <h2>Animals</h2>
-        </div> */}
+
         <div className='card'>
           <img src={img18} alt='img' />
           <h2>Vehicles</h2>
