@@ -33,9 +33,7 @@ const VideoGames = () => {
       <div className='instructions'>
         <h1>20 questions for video games </h1>
         <h2>Lets see how points you will get:</h2>
-        <h1>{questions.results.question}</h1>
-
-        {/* <SelectInput /> */}
+        <h1>{questions.results[0].question}</h1>
       </div>
     </div>
   );
