@@ -5,6 +5,7 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Favourites from "./pages/Favourites/Favourites";
 import Header from "./components/Header/Header";
 import VideoGames from "./pages/VideoGames/VideoGames";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/AboutUs' element={<AboutUs />} />
           <Route path='/VideoGamesQuiz' element={<VideoGames />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

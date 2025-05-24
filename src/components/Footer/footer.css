@@ -1,0 +1,8 @@
+.container {
+  background: linear-gradient(to top, #f0bb78, #f5ecd5);
+  padding: 40px;
+  text-align: center;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+}
