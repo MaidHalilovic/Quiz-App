@@ -5,3 +5,8 @@
   flex-direction: column;
   color: #626f47;
 }
+.questions {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
