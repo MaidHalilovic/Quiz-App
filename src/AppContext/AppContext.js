@@ -1,13 +1,13 @@
-import axios from "axios";
-import React, { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import VideoGames from "../pages/VideoGames/VideoGames";
+import axios from "axios";
 
-export const AppContext = createContext();
+// export const AppContext = createContext;
 
-const AppContext = () => {
+function AppContext() {
   const [questions, setQuestions] = useState(null);
 
-  const fetchQuestions = async () => {
+  const Question = async () => {
     try {
       const { data } = await axios.get(
         `https://opentdb.com/api.php?amount=20&category=15&type=multiple`
@@ -22,17 +22,16 @@ const AppContext = () => {
   };
 
   useEffect(() => {
-    fetchQuestions();
+    Question();
   }, []);
 
   if (!questions) {
     return <h1>Loading...</h1>;
   }
   return (
-    <AppContext.Provider value={questions}>
+    <AppContext.Provider value={Question}>
       <VideoGames />
     </AppContext.Provider>
   );
-};
-
+}
 export default AppContext;

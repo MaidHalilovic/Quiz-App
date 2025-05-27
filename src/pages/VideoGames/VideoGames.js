@@ -4,7 +4,7 @@ import axios from "axios";
 import AppContext from "../../AppContext/AppContext";
 
 const VideoGames = () => {
-  const questions = useContext(AppContext);
+  const Question = useContext(AppContext);
   // const [questions, setQuestions] = useState(null);
 
   // const fetchQuestions = async () => {
@@ -37,8 +37,8 @@ const VideoGames = () => {
           <h2>Lets see how points you will get:</h2>
         </div>
         <div className='questions'>
-          <h2>{questions.results[0].question}</h2>
-          <div className='answers'>
+          <h2>{Question.results}</h2>
+          {/* <div className='answers'>
             <button>{questions.results[0].incorrect_answers[0]}</button>
             <button>{questions.results[0].incorrect_answers[1]}</button>
             <button>{questions.results[0].incorrect_answers[2]}</button>
@@ -61,7 +61,7 @@ const VideoGames = () => {
             <button>{questions.results[2].incorrect_answers[1]}</button>
             <button>{questions.results[2].incorrect_answers[2]}</button>
             <button>{questions.results[2].correct_answer}</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
