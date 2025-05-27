@@ -1,31 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./videoGames.css";
 import axios from "axios";
+import AppContext from "../../AppContext/AppContext";
 
 const VideoGames = () => {
-  const [questions, setQuestions] = useState(null);
+  const questions = useContext(AppContext);
+  // const [questions, setQuestions] = useState(null);
 
-  const fetchQuestions = async () => {
-    try {
-      const { data } = await axios.get(
-        `https://opentdb.com/api.php?amount=20&category=15&type=multiple`
-      );
+  // const fetchQuestions = async () => {
+  //   try {
+  //     const { data } = await axios.get(
+  //       `https://opentdb.com/api.php?amount=20&category=15&type=multiple`
+  //     );
 
-      console.log(data);
+  //     console.log(data);
 
-      setQuestions(data);
-    } catch (error) {
-      console.error("Error while fetching questions");
-    }
-  };
+  //     setQuestions(data);
+  //   } catch (error) {
+  //     console.error("Error while fetching questions");
+  //   }
+  // };
 
-  useEffect(() => {
-    fetchQuestions();
-  }, []);
+  // useEffect(() => {
+  //   fetchQuestions();
+  // }, []);
 
-  if (!questions) {
-    return <h1>Loading...</h1>;
-  }
+  // if (!questions) {
+  //   return <h1>Loading...</h1>;
+  // }
 
   return (
     <div className='quiz'>
