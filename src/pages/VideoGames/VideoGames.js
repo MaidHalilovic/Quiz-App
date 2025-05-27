@@ -30,8 +30,10 @@ const VideoGames = () => {
   return (
     <div className='quiz'>
       <div className='instructions'>
-        <h1>20 questions for video games </h1>
-        <h2>Lets see how points you will get:</h2>
+        <div className='style'>
+          <h1>20 questions for video games </h1>
+          <h2>Lets see how points you will get:</h2>
+        </div>
         <div className='questions'>
           <h2>{questions.results[0].question}</h2>
           <div className='answers'>
