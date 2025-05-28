@@ -4,7 +4,7 @@ import axios from "axios";
 
 // export const AppContext = createContext;
 
-function AppContext() {
+export const AppContext = ({ children }) => {
   const [questions, setQuestions] = useState(null);
 
   const Question = async () => {
@@ -29,9 +29,7 @@ function AppContext() {
     return <h1>Loading...</h1>;
   }
   return (
-    <AppContext.Provider value={Question}>
-      <VideoGames />
-    </AppContext.Provider>
+    <AppContext.Provider value={questions}>{children}</AppContext.Provider>
   );
-}
+};
 export default AppContext;
